@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "hello-mod",
+  "version": "${version}",
+  "name": "Hello Mod",
+  "description": "hellomod",
+  "authors": [
+    "hanshoi"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/hello-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "example.hellomod.client.HelloModClient"
+    ],
+    "main": [
+      "example.hellomod.HelloMod"
+    ]
+  },
+  "mixins": [
+    "hello-mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
