@@ -9,12 +9,8 @@
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/hello-mod/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "example.hellomod.client.HelloModClient"
-    ],
     "main": [
       "example.hellomod.HelloMod"
     ]
